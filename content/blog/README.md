@@ -8,16 +8,16 @@ Every blog post is one Markdown file in this folder. This folder is the only sou
 2. Fill in the frontmatter and write the post. Remove `draft: true` when it is ready.
 3. Commit and push to `main`.
 
-GitHub Actions (`.github/workflows/build-blog.yml`) then builds the HTML, updates `sitemap.xml` and `blog/feed.xml`, and commits them back. You can also build locally:
+Vercel then builds and deploys the site automatically (`npm run vercel-build`), and a GitHub Action also commits the generated `blog/`, `blog/feed.xml` and `sitemap-blog.xml` back to the repo. You can also build locally:
 
 ```bash
 npm install        # first time only
-npm run build      # writes /blog and sitemap.xml
+npm run build      # writes /blog and sitemap-blog.xml
 npm run blog:check # validate content without writing
 npm run blog:serve # build, then preview at http://localhost:8080/blog/
 ```
 
-Then upload the site as described in `DEPLOY.txt` (the `blog/` folder, `assets/blog.css`, `assets/edebo-logo-light.png` and `sitemap.xml` are the new pieces).
+The root `sitemap.xml` is hand-maintained; blog URLs go in `sitemap-blog.xml` automatically.
 
 ## Frontmatter
 
