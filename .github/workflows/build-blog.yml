@@ -38,7 +38,7 @@ jobs:
         run: |
           git config user.name "edebo-blog-bot"
           git config user.email "support@edebo.in"
-          git add blog sitemap.xml
+          git add blog sitemap-blog.xml
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

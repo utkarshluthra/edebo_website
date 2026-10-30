@@ -49,12 +49,5 @@ export const CATEGORIES = {
   },
 };
 
-// Non-blog pages that must stay in sitemap.xml (the build rewrites the file).
-// Update lastmod when you change one of these pages.
-export const STATIC_PAGES = [
-  { loc: '/', lastmod: '2026-10-30', changefreq: 'weekly', priority: '1.0' },
-  { loc: '/privacy.html', lastmod: '2026-10-30', changefreq: 'yearly', priority: '0.3' },
-  { loc: '/terms.html', lastmod: '2026-10-30', changefreq: 'yearly', priority: '0.3' },
-];
 
 export const WORDS_PER_MINUTE = 220;

@@ -23,8 +23,8 @@ After deploy:
 - Run PageSpeed Insights on mobile and test Rich Results on the home page
 
 Blog (added 30 Oct 2026)
-Source: content/blog/*.md  ->  built by `npm run build` (or the GitHub Action) into /blog and sitemap.xml.
-Upload on each blog change: the whole blog/ folder, sitemap.xml, assets/blog.css, assets/edebo-logo-light.png
-(and index.html once, for the new Blog links in the nav and footer).
-After the first blog deploy, resubmit https://edebo.in/sitemap.xml in Search Console.
+Source: content/blog/*.md  ->  built into /blog and sitemap-blog.xml. Vercel runs the build on every push to main and deploys automatically.
+Root sitemap.xml is hand-maintained (blog URLs live in sitemap-blog.xml; robots.txt lists both).
+If a new top-level page is added, add it to sitemap.xml by hand.
+In Search Console submit both https://edebo.in/sitemap.xml and https://edebo.in/sitemap-blog.xml.
 How to add a post: see content/blog/README.md

@@ -5,14 +5,15 @@
 //
 // Output (all generated, do not edit by hand):
 //   blog/index.html, blog/<slug>/index.html, blog/category/<key>/index.html,
-//   blog/feed.xml, sitemap.xml
+//   blog/feed.xml, sitemap-blog.xml
+// The root sitemap.xml is hand-maintained and is NOT touched by this script.
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
 import { Marked } from 'marked';
-import { SITE, CATEGORIES, STATIC_PAGES, WORDS_PER_MINUTE } from './config.mjs';
+import { SITE, CATEGORIES, WORDS_PER_MINUTE } from './config.mjs';
 import { renderIndex, renderCategory, renderPost, renderFeed } from './templates.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
@@ -216,10 +217,9 @@ for (const key of Object.keys(CATEGORIES)) {
 }
 write('blog/feed.xml', renderFeed(posts));
 
-// sitemap: static pages + blog
+// sitemap-blog.xml: blog index, categories and posts
 const latest = posts.reduce((m, p) => ((p.updated || p.date) > m ? p.updated || p.date : m), '2026-01-01');
 const urls = [
-  ...STATIC_PAGES.map((s) => ({ ...s, lastmod: s.lastmod || latest })),
   { loc: '/blog/', lastmod: latest, changefreq: 'weekly', priority: '0.8' },
   ...Object.keys(CATEGORIES)
     .filter((k) => posts.some((p) => p.category === k))
@@ -232,7 +232,7 @@ const urls = [
   ...posts.map((p) => ({ loc: `/blog/${p.slug}/`, lastmod: p.updated || p.date, changefreq: 'monthly', priority: '0.7' })),
 ];
 write(
-  'sitemap.xml',
+  'sitemap-blog.xml',
   `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
