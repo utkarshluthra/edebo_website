@@ -1,0 +1,47 @@
+name: Build blog
+
+# Rebuilds /blog, blog/feed.xml and sitemap.xml whenever a post or the
+# blog build code changes, then commits the generated files back to main.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/blog/**'
+      - 'scripts/blog/**'
+      - 'package.json'
+  pull_request:
+    paths:
+      - 'content/blog/**'
+      - 'scripts/blog/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Validate posts
+        run: npm run blog:check
+      - name: Build blog
+        if: github.event_name != 'pull_request'
+        run: npm run build
+      - name: Commit generated files
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "edebo-blog-bot"
+          git config user.email "support@edebo.in"
+          git add blog sitemap.xml
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Build blog [skip ci]"
+            git push
+          fi
