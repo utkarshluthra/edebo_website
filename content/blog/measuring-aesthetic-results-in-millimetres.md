@@ -1,11 +1,10 @@
 ---
 title: "Measuring Aesthetic Results in Millimetres, Not Opinions"
 description: "How 3D measurement turns aesthetic outcomes into numbers: volume, projection, symmetry and contour change between visits, and how to present them to patients."
-date: 2026-10-30
+date: 2026-07-07
 category: before-and-after
 keyword: "measuring aesthetic treatment results"
 tags: [measurement, before and after, follow-up, 3d imaging]
-order: 11
 faq:
   - q: "How do you measure aesthetic treatment results objectively?"
     a: "By aligning 3D scans from before and after treatment and measuring the difference: volume change, projection, distances and symmetry. Skin features can be tracked with consistent skin analysis scores."

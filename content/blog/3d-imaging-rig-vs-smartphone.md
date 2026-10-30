@@ -1,11 +1,10 @@
 ---
 title: "3D Imaging Rig vs Smartphone: Choosing a System for Your Clinic"
 description: "Compare fixed 3D camera rigs, handheld scanners and smartphone-based 3D imaging on cost, accuracy, workflow and data handling, with a checklist for clinics."
-date: 2026-10-30
+date: 2026-07-14
 category: 3d-imaging
 keyword: "3D imaging system for clinic"
 tags: [3d imaging, buying guide, comparison, cost]
-order: 5
 faq:
   - q: "Is a smartphone 3D scanner a replacement for a Vectra-type rig?"
     a: "For many aesthetic uses such as consultation, documentation and follow-up comparison, phone-based capture is now close enough to be practical. Rigs still suit research settings and clinics that need maximum standardisation in one fixed room."

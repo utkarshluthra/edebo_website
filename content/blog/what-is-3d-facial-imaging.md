@@ -1,12 +1,10 @@
 ---
 title: "What Is 3D Facial Imaging? A Guide for Aesthetic Clinics"
 description: "What 3D facial imaging is, how it differs from photos, what it measures and how Indian dermatology and aesthetic clinics use it in daily practice."
-date: 2026-10-30
+date: 2026-06-02
 category: 3d-imaging
 keyword: "3D facial imaging"
 tags: [3d imaging, basics, consultation, measurement]
-featured: true
-order: 1
 faq:
   - q: "What is 3D facial imaging?"
     a: "3D facial imaging captures the shape of the face as a digital surface model rather than a flat photo. Clinicians can rotate the model, view it from any angle and measure distances, volumes and symmetry on it."

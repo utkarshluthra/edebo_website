@@ -1,11 +1,10 @@
 ---
 title: "Tracking Hair Restoration Progress Patients Can Actually See"
 description: "How hair clinics can document hairline and scalp change across medical, procedural and surgical hair programmes, and keep patients engaged through slow early months."
-date: 2026-10-30
+date: 2026-09-29
 category: treatments
 keyword: "tracking hair restoration progress"
 tags: [hair, follow-up, retention, programmes]
-order: 19
 faq:
   - q: "Why do hair restoration patients drop out of treatment?"
     a: "Progress is slow and gradual, so patients often feel nothing is changing and stop. Clear, consistent documentation against a baseline helps them see real change."

@@ -1,11 +1,10 @@
 ---
 title: "Documenting Botulinum Toxin Results: Static and Dynamic Views"
 description: "How clinics can document neuromodulator treatment consistently: baseline and review timing, animation views, brow position and 3D records for lower-face slimming."
-date: 2026-10-30
+date: 2026-10-02
 category: treatments
 keyword: "botox before and after documentation"
 tags: [neuromodulators, injectables, documentation, before and after]
-order: 27
 faq:
   - q: "When should botulinum toxin results be reviewed?"
     a: "Many clinics review at around two weeks, when the effect is usually established, and record again before the next treatment to see how long the effect lasted."

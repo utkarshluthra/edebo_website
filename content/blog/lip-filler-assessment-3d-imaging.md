@@ -1,11 +1,10 @@
 ---
 title: "Lip Filler Assessment and Planning With 3D Imaging"
 description: "How 3D imaging helps clinicians assess lip proportions, symmetry and projection before lip filler, and show patients a measured, natural-looking result."
-date: 2026-10-30
+date: 2026-07-03
 category: treatments
 keyword: "lip filler assessment"
 tags: [fillers, lips, symmetry, consultation]
-order: 15
 faq:
   - q: "What measurements matter in lip assessment?"
     a: "Common ones include upper-to-lower lip height ratio, lip width, vermilion show, projection in profile, cupid's bow shape and left-right symmetry."

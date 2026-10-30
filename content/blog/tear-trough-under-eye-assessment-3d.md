@@ -1,11 +1,10 @@
 ---
 title: "Under-Eye and Tear Trough Assessment With 3D Imaging"
 description: "Why the tear trough is hard to judge in photos, and how 3D imaging helps assess hollowing, plan under-eye treatment and document subtle results."
-date: 2026-10-30
+date: 2026-08-14
 category: treatments
 keyword: "tear trough assessment"
 tags: [fillers, under eye, tear trough, measurement]
-order: 16
 faq:
   - q: "Why do under-eye hollows look different in every photo?"
     a: "The tear trough is a shallow depression that is defined almost entirely by shadow. Small changes in light direction or head angle make it look deeper or shallower."

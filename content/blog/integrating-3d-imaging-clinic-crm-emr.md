@@ -1,11 +1,10 @@
 ---
 title: "Integrating 3D Imaging With Clinic CRM and EMR Software"
 description: "How 3D imaging connects with clinic CRM and EMR software: data flows, patient matching, consent, APIs and the questions to ask first."
-date: 2026-10-30
+date: 2026-10-09
 category: industry
 keyword: "3D imaging EMR integration"
 tags: [industry, integration, emr, crm]
-order: 38
 faq:
   - q: "Why integrate 3D imaging with an EMR or CRM?"
     a: "So scans attach to the right patient record automatically, staff do not re-enter data, follow-ups and reminders can reference results, and consent and access controls stay consistent."

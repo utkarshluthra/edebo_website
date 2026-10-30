@@ -1,12 +1,10 @@
 ---
 title: "Standardised Before and After Photos: A Protocol for Clinics"
 description: "A step-by-step protocol for consistent before-and-after clinical photos in aesthetic and dermatology clinics: views, distance, lighting, pose, consent and storage."
-date: 2026-10-30
+date: 2026-06-05
 category: before-and-after
 keyword: "standardised before and after photos"
 tags: [before and after, clinical photography, protocol, consent]
-featured: false
-order: 9
 faq:
   - q: "What are the standard views for facial before-and-after photos?"
     a: "The common set is frontal, left and right 45-degree oblique, and left and right 90-degree profile, plus treatment-specific views such as upward chin view for the neck or smiling views for dynamic lines."

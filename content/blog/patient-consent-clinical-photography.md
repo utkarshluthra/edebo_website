@@ -1,11 +1,10 @@
 ---
 title: "Patient Consent for Clinical Photography: A Practical Template"
 description: "What a good consent process for clinical photos and 3D scans looks like in Indian clinics, with clauses to include and mistakes to avoid."
-date: 2026-10-30
+date: 2026-07-21
 category: privacy-and-compliance
 keyword: "consent for clinical photography"
 tags: [consent, privacy, dpdp act, clinical photography]
-order: 35
 faq:
   - q: "Do I need written consent for clinical photographs?"
     a: "You need clear, recorded consent. Written or digital consent with a timestamp is the practical standard, because it can be produced later if questioned."

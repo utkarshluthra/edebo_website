@@ -1,11 +1,10 @@
 ---
 title: "Body Contouring Results: Measuring Change With 3D Imaging"
 description: "How clinics can measure body contouring results, from non-surgical fat reduction to liposuction, with 3D scans instead of tape measures and inconsistent photos."
-date: 2026-10-30
+date: 2026-08-21
 category: treatments
 keyword: "body contouring measurement"
 tags: [body contouring, body, measurement, fat reduction]
-order: 21
 faq:
   - q: "How do you measure body contouring results?"
     a: "Traditionally with tape measurements, weight and photos. 3D body scans add measured contour, circumference and volume change between visits, which are less sensitive to posture and camera angle."

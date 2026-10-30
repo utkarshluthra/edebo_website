@@ -1,11 +1,10 @@
 ---
 title: "Tracking Patient Progress Across Follow-Up Visits in Aesthetics"
 description: "A practical system for tracking aesthetic patients across follow-ups: baseline scans, review intervals, measured comparison and smart reminders."
-date: 2026-10-30
+date: 2026-07-31
 category: before-and-after
 keyword: "aesthetic patient follow-up tracking"
 tags: [follow-up, retention, measurement, workflow]
-order: 13
 faq:
   - q: "How often should aesthetic patients come for follow-up?"
     a: "It depends on the treatment. Common review points are about two weeks after fillers and neuromodulators, after each session in a peel or laser course, and every few months for hair restoration and maintenance programmes."

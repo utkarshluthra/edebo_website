@@ -1,11 +1,10 @@
 ---
 title: "Hair Transplant Hairline Planning With 3D Imaging"
 description: "How 3D imaging helps hair restoration clinics record the hairline, plan graft zones, document consent and show patients measured progress after a transplant."
-date: 2026-10-30
+date: 2026-07-17
 category: treatments
 keyword: "hair transplant hairline planning"
 tags: [hair, hairline, hair transplant, planning]
-order: 18
 faq:
   - q: "How does 3D imaging help with hair transplant planning?"
     a: "A 3D scan records the shape of the scalp and the current hairline from every angle. Surgeons can mark the planned hairline and recipient zones on the model and measure distances and areas."

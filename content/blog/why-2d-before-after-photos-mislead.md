@@ -1,11 +1,10 @@
 ---
 title: "Why 2D Before and After Photos Mislead Patients and Doctors"
 description: "Camera distance, lens, lighting, head tilt and expression can all fake or hide aesthetic results in 2D photos. Here is how each distortion works and how to avoid it."
-date: 2026-10-30
+date: 2026-06-16
 category: before-and-after
 keyword: "before and after photos misleading"
 tags: [before and after, 2d photography, measurement, trust]
-order: 10
 faq:
   - q: "Can lighting change how a before-and-after photo looks?"
     a: "Yes, strongly. Light from above deepens folds and hollows, while soft frontal light flattens them. The same face can look years older or younger depending on light direction."

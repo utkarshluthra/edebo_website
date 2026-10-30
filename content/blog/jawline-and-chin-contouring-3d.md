@@ -1,11 +1,10 @@
 ---
 title: "Jawline and Chin Contouring: Planning and Proof With 3D Imaging"
 description: "How 3D imaging helps clinicians assess chin projection and jawline definition, plan filler or surgical contouring and show measured results in profile."
-date: 2026-10-30
+date: 2026-09-22
 category: treatments
 keyword: "jawline contouring 3D"
 tags: [jawline, chin, fillers, profile]
-order: 23
 faq:
   - q: "How is chin projection assessed?"
     a: "Clinicians assess chin position in profile relative to the lips, nose and facial planes. A 3D model lets this be measured from a consistent profile regardless of camera position."

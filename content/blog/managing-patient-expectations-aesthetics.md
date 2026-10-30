@@ -1,11 +1,10 @@
 ---
 title: "Managing Patient Expectations in Aesthetic Consultations"
 description: "How aesthetic clinicians can set realistic expectations, handle reference photos and filters, document agreed goals and reduce dissatisfaction after treatment."
-date: 2026-10-30
+date: 2026-08-07
 category: clinic-growth
 keyword: "managing patient expectations aesthetics"
 tags: [consultation, expectations, communication, consent]
-order: 30
 faq:
   - q: "How do you manage unrealistic expectations in aesthetic patients?"
     a: "Listen carefully, show the patient their current anatomy objectively, explain what is realistic, document agreed goals and avoid presenting simulations as promises."

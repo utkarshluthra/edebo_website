@@ -1,11 +1,10 @@
 ---
 title: "Rhinoplasty Consultations With 3D Imaging: Plan and Explain"
 description: "How plastic surgeons use 3D imaging in rhinoplasty and non-surgical nose consultations to analyse the profile, document asymmetry and align expectations."
-date: 2026-10-30
+date: 2026-09-08
 category: treatments
 keyword: "rhinoplasty 3D imaging consultation"
 tags: [rhinoplasty, surgery, consultation, symmetry]
-order: 20
 faq:
   - q: "How does 3D imaging help in rhinoplasty consultations?"
     a: "It lets the surgeon and patient view the nose from every angle on the patient's own face, measure profile and proportions, document asymmetry and discuss the plan with a shared reference."

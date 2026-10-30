@@ -1,11 +1,10 @@
 ---
 title: "Dermal Filler Volume Measurement With 3D Imaging"
 description: "How clinicians use 3D imaging to plan and measure dermal filler results: baseline scans, volume colour maps, settling over time and patient talk."
-date: 2026-10-30
+date: 2026-06-12
 category: treatments
 keyword: "dermal filler volume measurement"
 tags: [fillers, volume, injectables, measurement]
-order: 14
 faq:
   - q: "Can 3D imaging measure how much filler was injected?"
     a: "3D imaging measures the change in surface volume between scans, not the product in the syringe. The visible volume change can differ from the injected volume because of tissue response, swelling and product integration."

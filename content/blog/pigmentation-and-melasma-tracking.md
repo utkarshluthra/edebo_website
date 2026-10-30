@@ -1,11 +1,10 @@
 ---
 title: "Tracking Pigmentation and Melasma Treatment Progress"
 description: "How dermatologists can document pigmentation and melasma treatment consistently, with standardised capture, skin analysis scores and honest progress conversations."
-date: 2026-10-30
+date: 2026-09-01
 category: treatments
 keyword: "melasma treatment progress tracking"
 tags: [skin, pigmentation, melasma, skin analysis]
-order: 25
 faq:
   - q: "Why is pigmentation progress hard to judge?"
     a: "Pigmentation looks different under different light colours, camera settings and makeup, and it changes with sun exposure and season. Without consistent capture, progress is a matter of impression."

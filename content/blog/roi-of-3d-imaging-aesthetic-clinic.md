@@ -1,11 +1,10 @@
 ---
 title: "ROI of 3D Imaging for Aesthetic Clinics: A Simple Model"
 description: "A step-by-step model for the return on 3D imaging in an aesthetic clinic, using conversion, retention and package value, with a worked example."
-date: 2026-10-30
+date: 2026-08-25
 category: clinic-growth
 keyword: "ROI of 3D imaging aesthetic clinic"
 tags: [roi, cost, clinic growth, pricing]
-order: 31
 faq:
   - q: "How do I calculate ROI on 3D imaging?"
     a: "Estimate the extra packages and renewals per month that better consultations and follow-ups generate, multiply by average package value and margin, and compare with the monthly cost of the system."

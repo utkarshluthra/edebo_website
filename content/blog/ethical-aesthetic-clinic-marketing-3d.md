@@ -1,11 +1,10 @@
 ---
 title: "Ethical Aesthetic Clinic Marketing With Real Patient Results"
 description: "How Indian aesthetic clinics can market real patient results responsibly: separate consent, honest before-and-after images and factual claims."
-date: 2026-10-30
+date: 2026-09-25
 category: clinic-growth
 keyword: "aesthetic clinic marketing ethics"
 tags: [marketing, consent, ethics, social media]
-order: 33
 faq:
   - q: "Can aesthetic clinics post patient before-and-after photos?"
     a: "Only with clear, specific, documented consent for that use, and in line with applicable professional and advertising rules. Clinical consent alone does not cover marketing use."

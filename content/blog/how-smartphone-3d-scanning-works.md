@@ -1,11 +1,10 @@
 ---
 title: "How Smartphone 3D Scanning Works: Photogrammetry Explained"
 description: "A plain-language explanation of how a smartphone turns video frames into a measurable 3D model of the face or body, and what affects scan quality."
-date: 2026-10-30
+date: 2026-06-09
 category: 3d-imaging
 keyword: "smartphone 3D scanning"
 tags: [3d imaging, photogrammetry, technology, capture]
-order: 2
 faq:
   - q: "How can a phone create a 3D model?"
     a: "The phone records many overlapping images while it moves around the subject. Software matches the same features across those images and uses the change in viewpoint to calculate depth, a process called photogrammetry."

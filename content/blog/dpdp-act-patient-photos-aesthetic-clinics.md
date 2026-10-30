@@ -1,11 +1,10 @@
 ---
 title: "DPDP Act and Patient Photos: A Guide for Aesthetic Clinics"
 description: "What India's DPDP Act 2023 and DPDP Rules 2025 mean for clinics that take patient photos and 3D scans, with a practical compliance checklist."
-date: 2026-10-30
+date: 2026-06-26
 category: privacy-and-compliance
 keyword: "DPDP Act clinic patient photos"
 tags: [dpdp act, privacy, consent, compliance]
-order: 34
 faq:
   - q: "Does the DPDP Act apply to clinic patient photos?"
     a: "Yes. Clinical photos and 3D scans of identifiable patients stored digitally are personal data. The clinic that decides how they are used is a data fiduciary under the DPDP Act, 2023."

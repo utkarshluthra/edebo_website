@@ -1,11 +1,10 @@
 ---
 title: "Standardising Imaging Across Clinic Branches and Chains"
 description: "How multi-branch aesthetic and dermatology chains can standardise imaging protocols, access control and quality audits across every branch."
-date: 2026-10-30
+date: 2026-09-11
 category: clinic-growth
 keyword: "clinic chain imaging standardisation"
 tags: [chains, operations, standardisation, multi-branch]
-order: 32
 faq:
   - q: "Why do clinic chains struggle with consistent imaging?"
     a: "Each branch has different rooms, lighting, devices and habits. Without a shared protocol, tools and audits, images from different branches cannot be compared and quality varies."

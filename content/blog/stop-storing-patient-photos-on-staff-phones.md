@@ -1,11 +1,10 @@
 ---
 title: "Why Clinics Must Stop Storing Patient Photos on Staff Phones"
 description: "The risks of keeping patient images on personal phones and WhatsApp in Indian clinics, what can go wrong under the DPDP Act, and a practical plan to fix it."
-date: 2026-10-30
+date: 2026-08-18
 category: privacy-and-compliance
 keyword: "patient photos on staff phones"
 tags: [privacy, security, dpdp act, operations]
-order: 36
 faq:
   - q: "Is it legal to keep patient photos on a doctor's personal phone?"
     a: "The DPDP Act requires reasonable security safeguards for personal data. Personal phones and messaging apps make it hard to control access, deletion and breaches, which creates significant compliance risk."

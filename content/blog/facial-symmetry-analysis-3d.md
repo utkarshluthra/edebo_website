@@ -1,11 +1,10 @@
 ---
 title: "Facial Symmetry Analysis With 3D Imaging: A Clinician's Guide"
 description: "How 3D imaging measures facial asymmetry by mirroring and comparing the two halves of the face, and why documenting baseline asymmetry protects patients and clinics."
-date: 2026-10-30
+date: 2026-07-24
 category: treatments
 keyword: "facial symmetry analysis"
 tags: [symmetry, measurement, consultation, planning]
-order: 17
 faq:
   - q: "Is it normal to have an asymmetrical face?"
     a: "Yes. Almost everyone has some facial asymmetry. Mild differences between the left and right sides are normal; aesthetic treatment sometimes aims to reduce noticeable differences."

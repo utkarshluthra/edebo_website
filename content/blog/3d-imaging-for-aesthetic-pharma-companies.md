@@ -1,11 +1,10 @@
 ---
 title: "3D Imaging for Aesthetic Pharma and Device Companies"
 description: "How dermal filler makers, injectable brands and aesthetic device manufacturers can use phone-based 3D imaging for measured outcomes, doctor engagement and evidence."
-date: 2026-10-30
+date: 2026-09-04
 category: industry
 keyword: "3D imaging for aesthetic pharma companies"
 tags: [industry, pharma, devices, evidence]
-order: 37
 faq:
   - q: "How can filler companies use 3D imaging?"
     a: "To show doctors and patients measured volume change after treatment with their products, to support post-marketing observations and medical education, and to give clinics a tool that makes results visible."

@@ -1,11 +1,10 @@
 ---
 title: "2D vs 3D Imaging in Aesthetic Clinics: What Each Can Show"
 description: "A side-by-side comparison of 2D clinical photography and 3D imaging for aesthetic consultations, follow-ups and records, with guidance on when each fits."
-date: 2026-10-30
+date: 2026-06-23
 category: 3d-imaging
 keyword: "2D vs 3D imaging aesthetics"
 tags: [3d imaging, 2d photography, comparison, before and after]
-order: 3
 faq:
   - q: "Is 3D imaging better than 2D photography for aesthetics?"
     a: "For treatments that change shape or volume, 3D imaging shows more because it records depth and can be measured. 2D photography remains useful for quick visual records, colour and surface detail."

@@ -1,11 +1,10 @@
 ---
 title: "In-Clinic Skin Analysis Explained: What It Measures and Why"
 description: "What in-clinic skin analysis measures (pigmentation, redness, texture and pores), how it works, its limits, and how dermatology clinics use it to track treatment."
-date: 2026-10-30
+date: 2026-08-04
 category: treatments
 keyword: "in-clinic skin analysis"
 tags: [skin analysis, skin, measurement, consultation]
-order: 26
 faq:
   - q: "What does a skin analysis measure?"
     a: "Most in-clinic skin analysis tools score visible features such as pigmentation, redness, texture and pores from a standardised image or scan, so they can be compared across visits."

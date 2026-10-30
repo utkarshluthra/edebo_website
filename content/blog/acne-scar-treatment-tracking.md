@@ -1,11 +1,10 @@
 ---
 title: "Acne Scar Treatment: How to Track Progress Across Sessions"
 description: "A practical guide for dermatologists on documenting acne scar treatment across multiple sessions with standardised imaging, texture scores and 3D surface records."
-date: 2026-10-30
+date: 2026-09-15
 category: treatments
 keyword: "acne scar treatment progress"
 tags: [skin, acne scars, texture, follow-up]
-order: 24
 faq:
   - q: "Why is acne scar improvement hard to see in photos?"
     a: "Atrophic scars are shallow depressions defined by shadow. Frontal or flat lighting hides them; side lighting exaggerates them. Different lighting between sessions can make progress look worse or better than it is."

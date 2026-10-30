@@ -1,11 +1,10 @@
 ---
 title: "Lighting and Capture Tips for Better 3D Face and Body Scans"
 description: "Practical tips to get clean, repeatable 3D scans in a clinic: lighting, patient positioning, phone movement, hair, makeup and a pre-scan checklist for staff."
-date: 2026-10-30
+date: 2026-08-11
 category: 3d-imaging
 keyword: "3D scan lighting tips"
 tags: [capture, lighting, workflow, training]
-order: 7
 faq:
   - q: "What is the best lighting for a 3D face scan?"
     a: "Even, diffuse light from the front and sides, with no strong window backlight and no single harsh overhead lamp. Soft daylight-balanced LED panels or a well-lit consult room work well."

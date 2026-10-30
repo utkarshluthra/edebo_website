@@ -1,11 +1,10 @@
 ---
 title: "Cost of 3D Imaging for Clinics in India: Rigs vs Subscriptions"
 description: "What 3D imaging really costs an Indian clinic over five years: capital rigs vs phone-based subscriptions, hidden costs and how to model payback."
-date: 2026-10-30
+date: 2026-07-28
 category: 3d-imaging
 keyword: "3D imaging cost India"
 tags: [cost, pricing, buying guide, roi]
-order: 6
 faq:
   - q: "How much does a 3D imaging system cost in India?"
     a: "Fixed multi-camera rigs are a capital purchase usually quoted in foreign currency, with service and licence fees on top. Phone-based systems run on subscriptions; Edebo's practitioner plans are ₹1,999, ₹4,999 and ₹9,999 a month before taxes."

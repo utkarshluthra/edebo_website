@@ -1,11 +1,10 @@
 ---
 title: "How Accurate Is Smartphone 3D Face Scanning? What Studies Show"
 description: "A clear summary of published studies comparing smartphone 3D face scans with clinical systems like Vectra and 3dMD, and what it means for clinics."
-date: 2026-10-30
+date: 2026-06-30
 category: 3d-imaging
 keyword: "smartphone 3D face scan accuracy"
 tags: [3d imaging, accuracy, research, photogrammetry]
-order: 4
 faq:
   - q: "How accurate are smartphone 3D face scans?"
     a: "In a 2025 study comparing an iPhone 14 Pro with a Vectra M5 clinical system, photogrammetry-based phone scans showed a mean landmark deviation of about 0.8 mm. Other studies of phone apps against 3dMD systems report surface deviations around 1.5 mm. Results vary by app and capture method."

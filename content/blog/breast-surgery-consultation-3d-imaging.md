@@ -1,11 +1,10 @@
 ---
 title: "Breast Surgery Consultations With 3D Imaging: A Surgeon's Guide"
 description: "How plastic surgeons use 3D imaging in breast augmentation, reduction and reconstruction consultations to document asymmetry, discuss volume and record outcomes."
-date: 2026-10-30
+date: 2026-10-06
 category: treatments
 keyword: "breast surgery 3D imaging"
 tags: [surgery, breast, body, symmetry]
-order: 22
 faq:
   - q: "How is 3D imaging used in breast surgery consultations?"
     a: "Surgeons use 3D scans to document chest shape, volume and asymmetry before surgery, discuss options with a shared visual reference and compare post-operative results with baseline."

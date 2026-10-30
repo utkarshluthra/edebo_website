@@ -1,11 +1,10 @@
 ---
 title: "How to Increase Consultation Conversion in an Aesthetic Clinic"
 description: "A practical system to convert more aesthetic consultations into treatment plans: structure, visual explanation, clear pricing and monthly KPIs."
-date: 2026-10-30
+date: 2026-06-19
 category: clinic-growth
 keyword: "aesthetic consultation conversion"
 tags: [conversion, consultation, sales, clinic growth]
-order: 28
 faq:
   - q: "What is a good consultation conversion rate for an aesthetic clinic?"
     a: "It varies by treatment, price point and lead source, so the most useful benchmark is your own baseline. Measure it monthly by treatment and doctor, then test changes against it."

@@ -1,11 +1,10 @@
 ---
 title: "Clinical Photography Setup for a Small Clinic on a Budget"
 description: "How a small dermatology or aesthetic clinic in India can set up consistent clinical photography and 3D capture in one room without expensive equipment."
-date: 2026-10-30
+date: 2026-08-28
 category: before-and-after
 keyword: "clinical photography setup clinic"
 tags: [clinical photography, setup, budget, capture]
-order: 12
 faq:
   - q: "What equipment do I need for clinical photography in a small clinic?"
     a: "A clinic-owned smartphone or camera, a plain matte backdrop, two soft LED lights, floor markings for fixed distance, a stool without a high back and a secure place to store images."

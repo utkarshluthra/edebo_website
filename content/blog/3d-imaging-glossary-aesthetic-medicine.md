@@ -1,11 +1,10 @@
 ---
 title: "3D Imaging Glossary for Aesthetic Medicine: 40 Terms Explained"
 description: "Plain-language definitions of the 3D imaging terms clinicians meet when evaluating scanning systems, from photogrammetry and point clouds to RMS and Bland-Altman."
-date: 2026-10-30
+date: 2026-09-18
 category: 3d-imaging
 keyword: "3D imaging terms"
 tags: [3d imaging, basics, glossary, accuracy]
-order: 8
 faq:
   - q: "What is a mesh in 3D imaging?"
     a: "A mesh is the surface of a 3D model, made of many small connected triangles. It is built from a point cloud and is what you measure on."

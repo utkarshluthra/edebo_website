@@ -1,11 +1,10 @@
 ---
 title: "Aesthetic Clinic Patient Retention: Why Patients Leave and Return"
 description: "Why aesthetic and dermatology patients drop out of programmes or switch clinics, and a retention system built on measured progress, follow-up and trust."
-date: 2026-10-30
+date: 2026-07-10
 category: clinic-growth
 keyword: "aesthetic clinic patient retention"
 tags: [retention, follow-up, clinic growth, packages]
-order: 29
 faq:
   - q: "Why is patient retention important for aesthetic clinics?"
     a: "Many aesthetic treatments need repeat sessions or maintenance. Acquiring a new patient usually costs much more than keeping an existing one, so retention drives profitability."
