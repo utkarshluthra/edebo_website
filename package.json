@@ -2,13 +2,13 @@
   "name": "edebo-website",
   "private": true,
   "type": "module",
-  "description": "edebo.in static site. Blog posts live in content/blog/*.md and are built to /blog/.",
+  "description": "edebo.in static site. Web root is site/; blog posts live in content/blog/*.md and are built into site/blog/.",
   "scripts": {
     "build": "node scripts/blog/build.mjs",
-    "vercel-build": "node scripts/blog/build.mjs && node scripts/blog/export.mjs",
     "blog:new": "node scripts/blog/new-post.mjs",
     "blog:check": "node scripts/blog/build.mjs --check",
-    "blog:serve": "node scripts/blog/build.mjs && python3 -m http.server 8080"
+    "serve": "python3 -m http.server 8080 --directory site",
+    "dev": "node scripts/blog/build.mjs && python3 -m http.server 8080 --directory site"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

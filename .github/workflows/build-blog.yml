@@ -1,6 +1,6 @@
 name: Build blog
 
-# Rebuilds /blog, blog/feed.xml and sitemap.xml whenever a post or the
+# Rebuilds site/blog, site/blog/feed.xml and site/sitemap-blog.xml whenever a post or the
 # blog build code changes, then commits the generated files back to main.
 on:
   push:
@@ -9,6 +9,7 @@ on:
       - 'content/blog/**'
       - 'scripts/blog/**'
       - 'package.json'
+      - 'site/assets/css/blog.css'
   pull_request:
     paths:
       - 'content/blog/**'
@@ -38,7 +39,7 @@ jobs:
         run: |
           git config user.name "edebo-blog-bot"
           git config user.email "support@edebo.in"
-          git add blog sitemap-blog.xml
+          git add site/blog site/sitemap-blog.xml
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

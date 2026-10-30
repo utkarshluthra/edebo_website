@@ -24,7 +24,7 @@ function head({ title, description, path, ogType = 'website', image, extra = '',
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <link rel="canonical" href="${url}">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="${esc(SITE.blogTitle)}" href="${SITE.url}/blog/feed.xml">
@@ -44,7 +44,7 @@ ${extra}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/blog.css">
+<link rel="stylesheet" href="/assets/css/blog.css">
 ${schema.map(jsonLd).join('\n')}
 </head>
 <body>`;
@@ -53,7 +53,7 @@ ${schema.map(jsonLd).join('\n')}
 const nav = () => `
 <header class="bnav">
   <div class="bnav__inner">
-    <a href="/" class="bnav__home" aria-label="Edebo home"><img src="/assets/edebo-logo-light.png" alt="Edebo" width="87" height="20"></a>
+    <a href="/" class="bnav__home" aria-label="Edebo home"><img src="/assets/img/edebo-logo.png" alt="Edebo" width="87" height="20"></a>
     <nav class="bnav__links" aria-label="Main">
       <a href="/#how">How it works</a>
       <a href="/#analysis">Skin analysis</a>
@@ -79,7 +79,7 @@ const footer = () => `
   <div class="bwrap">
     <div class="bfoot__top">
       <div class="bfoot__brand">
-        <a href="/" aria-label="Edebo home"><img src="/assets/edebo-logo-light.png" alt="Edebo" width="113" height="26" loading="lazy"></a>
+        <a href="/" aria-label="Edebo home"><img src="/assets/img/edebo-logo.png" alt="Edebo" width="113" height="26" loading="lazy"></a>
         <p>India's first phone-enabled 3D imaging for clinics.</p>
       </div>
       <div class="bfoot__cols">
@@ -256,7 +256,7 @@ export function renderPost(p, related) {
         '@type': 'Organization',
         '@id': `${SITE.url}/#org`,
         name: SITE.name,
-        logo: { '@type': 'ImageObject', url: `${SITE.url}/icon-512.png` },
+        logo: { '@type': 'ImageObject', url: `${SITE.url}/assets/icons/icon-512.png` },
       },
       isPartOf: { '@id': `${SITE.url}/blog/#blog` },
     },
