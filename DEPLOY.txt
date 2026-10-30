@@ -1,0 +1,17 @@
+Edebo technical SEO update (30 Oct 2026)
+
+Upload these to the edebo.in web root, replacing index.html and all icon files
+(favicon.ico, favicon-16/32.png, apple-touch-icon.png, icon-*.png, site.webmanifest).
+Keep the existing videos, poster, og-image, privacy.html and terms.html.
+Browsers cache favicons hard: check in a private window after upload.
+
+Host settings to confirm:
+1. https://www.edebo.in and http:// both 301-redirect to https://edebo.in/
+2. Gzip or Brotli on for .html, .js, .glb, .webmanifest, .xml
+3. Cache-Control: max-age=31536000 for /assets/* and icons; short cache for index.html
+4. Serve .glb as model/gltf-binary and .webmanifest as application/manifest+json
+
+After deploy:
+- Add edebo.in to Google Search Console (Domain property, DNS TXT verification)
+- Submit https://edebo.in/sitemap.xml
+- Run PageSpeed Insights on mobile and test Rich Results on the home page
