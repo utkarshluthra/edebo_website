@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Integrating 3D Imaging With Clinic CRM and EMR Software | Edebo</title>
+<meta name="description" content="How 3D imaging connects with clinic CRM and EMR software: data flows, patient matching, consent, APIs and the questions to ask first.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://edebo.in/blog/integrating-3d-imaging-clinic-crm-emr/">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Edebo Blog" href="https://edebo.in/blog/feed.xml">
+<meta name="theme-color" content="#7C3AED">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Edebo">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="Integrating 3D Imaging With Clinic CRM and EMR Software | Edebo">
+<meta property="og:description" content="How 3D imaging connects with clinic CRM and EMR software: data flows, patient matching, consent, APIs and the questions to ask first.">
+<meta property="og:url" content="https://edebo.in/blog/integrating-3d-imaging-clinic-crm-emr/">
+<meta property="og:image" content="https://edebo.in/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Integrating 3D Imaging With Clinic CRM and EMR Software | Edebo">
+<meta name="twitter:description" content="How 3D imaging connects with clinic CRM and EMR software: data flows, patient matching, consent, APIs and the questions to ask first.">
+<meta name="twitter:image" content="https://edebo.in/og-image.jpg">
+<meta property="article:published_time" content="2026-10-30">
+<meta property="article:modified_time" content="2026-10-30">
+<meta property="article:section" content="Industry">
+<meta property="article:tag" content="industry">
+<meta property="article:tag" content="integration">
+<meta property="article:tag" content="emr">
+<meta property="article:tag" content="crm">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/blog.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://edebo.in/blog/integrating-3d-imaging-clinic-crm-emr/#article","headline":"Integrating 3D Imaging With Clinic CRM and EMR Software","description":"How 3D imaging connects with clinic CRM and EMR software: data flows, patient matching, consent, APIs and the questions to ask first.","datePublished":"2026-10-30","dateModified":"2026-10-30","inLanguage":"en-IN","wordCount":628,"timeRequired":"PT3M","articleSection":"Industry","keywords":"3D imaging EMR integration, industry, integration, emr, crm","image":"https://edebo.in/og-image.jpg","url":"https://edebo.in/blog/integrating-3d-imaging-clinic-crm-emr/","mainEntityOfPage":{"@type":"WebPage","@id":"https://edebo.in/blog/integrating-3d-imaging-clinic-crm-emr/"},"author":{"@type":"Organization","name":"Edebo Team","url":"https://edebo.in/"},"publisher":{"@type":"Organization","@id":"https://edebo.in/#org","name":"Edebo","logo":{"@type":"ImageObject","url":"https://edebo.in/icon-512.png"}},"isPartOf":{"@id":"https://edebo.in/blog/#blog"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://edebo.in/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://edebo.in/blog/"},{"@type":"ListItem","position":3,"name":"Industry","item":"https://edebo.in/blog/category/industry/"},{"@type":"ListItem","position":4,"name":"Integrating 3D Imaging With Clinic CRM and EMR Software","item":"https://edebo.in/blog/integrating-3d-imaging-clinic-crm-emr/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why integrate 3D imaging with an EMR or CRM?","acceptedAnswer":{"@type":"Answer","text":"So scans attach to the right patient record automatically, staff do not re-enter data, follow-ups and reminders can reference results, and consent and access controls stay consistent."}},{"@type":"Question","name":"What data should flow between imaging and clinic software?","acceptedAnswer":{"@type":"Answer","text":"Usually patient identifiers and appointment context into the imaging system, and scan links, reports, measurements and consent status back to the record. Raw 3D files often stay in the imaging system."}},{"@type":"Question","name":"Does Edebo integrate with EMRs?","acceptedAnswer":{"@type":"Answer","text":"EMR and patient-record integration is included in Edebo's Premium plan, and the clinics and platforms plan adds a scanning and reconstruction API for software partners."}}]}</script>
+</head>
+<body>
+<header class="bnav">
+  <div class="bnav__inner">
+    <a href="/" class="bnav__home" aria-label="Edebo home"><img src="/assets/edebo-logo-light.png" alt="Edebo" width="87" height="20"></a>
+    <nav class="bnav__links" aria-label="Main">
+      <a href="/#how">How it works</a>
+      <a href="/#analysis">Skin analysis</a>
+      <a href="/#pricing">Pricing</a>
+      <a href="/blog/" aria-current="page">Blog</a>
+    </nav>
+    <a class="bbtn bbtn--yellow bnav__cta" href="/#waitlist">Join waitlist</a>
+    <button class="bnav__burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="bnavSheet"><span></span><span></span></button>
+  </div>
+  <div class="bnav__sheet" id="bnavSheet" hidden>
+    <a href="/#how">How it works</a>
+    <a href="/#analysis">Skin analysis</a>
+    <a href="/#accuracy">Accuracy</a>
+    <a href="/#security">Security</a>
+    <a href="/#pricing">Pricing</a>
+    <a href="/blog/">Blog</a>
+    <a class="bbtn bbtn--yellow" href="/#waitlist">Join waitlist</a>
+  </div>
+</header>
+<main>
+  <article class="post">
+    <header class="phead">
+      <div class="bwrap bwrap--narrow">
+        <p class="crumbs"><a href="/blog/">Blog</a> <span aria-hidden="true">/</span> <a href="/blog/category/industry/">Industry</a></p>
+        <h1>Integrating 3D Imaging With Clinic CRM and EMR Software</h1>
+        <p class="phead__lede">How 3D imaging connects with clinic CRM and EMR software: data flows, patient matching, consent, APIs and the questions to ask first.</p>
+        <p class="phead__meta"><span>Edebo Team</span><span><time datetime="2026-10-30">30 October 2026</time></span><span>3 min read</span></p>
+      </div>
+    </header>
+    <div class="bwrap pgrid">
+      <aside class="pside"><nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#what-integration-should-achieve">What integration should achieve</a></li><li><a href="#typical-data-flows">Typical data flows</a></li><li><a href="#integration-patterns">Integration patterns</a></li><li><a href="#privacy-and-security-considerations">Privacy and security considerations</a></li><li><a href="#questions-to-ask-before-integrating">Questions to ask before integrating</a></li><li><a href="#for-clinic-software-platforms">For clinic software platforms</a></li><li><a href="#how-edebo-integrates">How Edebo integrates</a></li></ol></nav></aside>
+      <div class="prose">
+<p>A 3D scan is most useful when it lives where the clinic already works: in the patient record, next to the appointment, the treatment notes and the invoice. If staff have to switch apps, re-type patient details and copy links, imaging quickly becomes optional. Integration fixes that.</p>
+<p>This guide is for clinic owners evaluating an integration, and for CRM, EMR and practice management platforms considering adding 3D imaging for their clinic customers.</p>
+<h2 id="what-integration-should-achieve">What integration should achieve</h2>
+<ol>
+<li><strong>Right scan, right patient</strong>: no manual matching.</li>
+<li><strong>No double entry</strong>: patient details come from the record.</li>
+<li><strong>Results in context</strong>: scan reports and key measurements visible in the patient timeline.</li>
+<li><strong>Follow-ups that reference results</strong>: reminders and review appointments linked to the last scan. See <a href="/blog/tracking-patient-progress-follow-up-visits/">tracking patient progress</a>.</li>
+<li><strong>Consistent consent and access</strong>: who can see a scan follows the same rules as the record.</li>
+</ol>
+<h2 id="typical-data-flows">Typical data flows</h2>
+<div class="table"><table>
+<thead>
+<tr>
+<th>Direction</th>
+<th>Data</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Clinic software → imaging</td>
+<td>Patient ID, name, age, appointment, treating doctor</td>
+<td>Minimum needed to match and label scans</td>
+</tr>
+<tr>
+<td>Imaging → clinic software</td>
+<td>Scan link, report PDF or link, key measurements, skin analysis summary</td>
+<td>Shown in the patient timeline</td>
+</tr>
+<tr>
+<td>Imaging → clinic software</td>
+<td>Consent status and timestamp</td>
+<td>So consent is visible with the record</td>
+</tr>
+<tr>
+<td>Stays in imaging system</td>
+<td>Raw 3D model files</td>
+<td>Large files, viewed in the imaging app</td>
+</tr>
+</tbody></table></div>
+<p>Keeping raw 3D files in the imaging system and passing links and summaries back is often simpler and more secure than copying large files around.</p>
+<h2 id="integration-patterns">Integration patterns</h2>
+<h3 id="deep-link">Deep link</h3>
+<p>The clinic software opens the imaging app with the patient pre-selected. Simple and quick to build.</p>
+<h3 id="api-integration">API integration</h3>
+<p>The clinic software calls the imaging provider&#39;s API to create patients, request scans and fetch results. More work, more seamless.</p>
+<h3 id="embedded-or-white-label">Embedded or white-label</h3>
+<p>For platforms, 3D capture and viewing appear inside the platform&#39;s own interface. Best user experience; needs a provider that supports white-label.</p>
+<h2 id="privacy-and-security-considerations">Privacy and security considerations</h2>
+<p>Integration creates new data paths, and each needs care under the DPDP Act:</p>
+<ul>
+<li><strong>Minimise</strong> what is shared: send only what is needed.</li>
+<li><strong>Encrypt</strong> every connection.</li>
+<li><strong>Authenticate</strong> with scoped API keys or tokens, rotated regularly.</li>
+<li><strong>Log</strong> API access as well as user access.</li>
+<li><strong>Contracts</strong>: the clinic is the data fiduciary; both software providers are processors and need data processing agreements.</li>
+<li><strong>Location</strong>: confirm where each system stores and processes data.</li>
+</ul>
+<p>Read <a href="/blog/dpdp-act-patient-photos-aesthetic-clinics/">the DPDP Act and patient photos</a> for the full checklist.</p>
+<h2 id="questions-to-ask-before-integrating">Questions to ask before integrating</h2>
+<ol>
+<li>Which system is the source of truth for patient identity?</li>
+<li>How are duplicate or mismatched patients handled?</li>
+<li>What happens to scans if the integration fails or is switched off?</li>
+<li>Can patients&#39; deletion requests be honoured across both systems?</li>
+<li>How are API keys managed and revoked?</li>
+<li>Who supports the integration when something breaks?</li>
+</ol>
+<h2 id="for-clinic-software-platforms">For clinic software platforms</h2>
+<p>Adding 3D imaging can be a strong differentiator for a CRM or EMR serving aesthetic and dermatology clinics: it gives customers a visible new capability without hardware. Look for a provider with an API, white-label options, volume pricing and data stored in India.</p>
+<h2 id="how-edebo-integrates">How Edebo integrates</h2>
+<p>On the Premium plan (₹9,999 a month), Edebo includes EMR and patient-record integration, a full web dashboard and your own brand kit on reports. The clinics and platforms plan (₹25,000 a month) adds a scanning and reconstruction API, an organisation dashboard with role controls, white-label options and volume rates. Patient report share links do not expire, so links stored in a record keep working.</p>
+<p>For industry partnerships beyond software, see <a href="/blog/3d-imaging-for-aesthetic-pharma-companies/">3D imaging for aesthetic pharma and device companies</a>, and for multi-branch rollouts, <a href="/blog/standardising-imaging-across-clinic-branches/">standardising imaging across clinic branches</a>.</p>
+
+<section class="faq" id="faq"><h2>Frequently asked questions</h2><details><summary>Why integrate 3D imaging with an EMR or CRM?</summary><p>So scans attach to the right patient record automatically, staff do not re-enter data, follow-ups and reminders can reference results, and consent and access controls stay consistent.</p></details><details><summary>What data should flow between imaging and clinic software?</summary><p>Usually patient identifiers and appointment context into the imaging system, and scan links, reports, measurements and consent status back to the record. Raw 3D files often stay in the imaging system.</p></details><details><summary>Does Edebo integrate with EMRs?</summary><p>EMR and patient-record integration is included in Edebo's Premium plan, and the clinics and platforms plan adds a scanning and reconstruction API for software partners.</p></details></section>
+        <p class="disclaimer">Edebo is a measurement and visualisation tool, not a diagnostic device. Clinical decisions remain with the treating practitioner.</p>
+      </div>
+    </div>
+  </article>
+  <section class="bwrap related"><h2>Keep reading</h2><div class="blist__rows">
+<article class="prow" data-cat="industry">
+  <a class="prow__link" href="/blog/3d-imaging-for-aesthetic-pharma-companies/">
+    <p class="prow__meta"><span class="tag">Industry</span><span>30 October 2026</span><span>3 min read</span></p>
+    <h3 class="prow__title">3D Imaging for Aesthetic Pharma and Device Companies</h3>
+    <p class="prow__desc">How dermal filler makers, injectable brands and aesthetic device manufacturers can use phone-based 3D imaging for measured outcomes, doctor engagement and evidence.</p>
+    <span class="prow__more">Read article <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+  </a>
+</article></div></section>
+</main>
+<section class="bcta">
+  <div class="bwrap bcta__inner">
+    <div>
+      <p class="bcta__eyebrow">Edebo</p>
+      <h2>Turn the phone in your clinic into a 3D scanner.</h2>
+      <p>Capture, measure and compare face, hairline and body results in one appointment. No rig, no booth.</p>
+    </div>
+    <div class="bcta__actions">
+      <a class="bbtn bbtn--yellow bbtn--lg" href="/#waitlist">Join waitlist</a>
+      <a class="bcta__link" href="/#how">See how it works</a>
+    </div>
+  </div>
+</section>
+<footer class="bfoot">
+  <div class="bwrap">
+    <div class="bfoot__top">
+      <div class="bfoot__brand">
+        <a href="/" aria-label="Edebo home"><img src="/assets/edebo-logo-light.png" alt="Edebo" width="113" height="26" loading="lazy"></a>
+        <p>India's first phone-enabled 3D imaging for clinics.</p>
+      </div>
+      <div class="bfoot__cols">
+        <div><h4>Product</h4><a href="/#how">How it works</a><a href="/#analysis">Skin analysis</a><a href="/#accuracy">Accuracy</a><a href="/#pricing">Pricing</a></div>
+        <div><h4>Blog</h4><a href="/blog/category/3d-imaging/">3D Imaging</a><a href="/blog/category/before-and-after/">Before and After</a><a href="/blog/category/treatments/">Treatments</a><a href="/blog/category/clinic-growth/">Clinic Growth</a><a href="/blog/category/privacy-and-compliance/">Privacy and Compliance</a><a href="/blog/category/industry/">Industry</a></div>
+        <div><h4>Get the app</h4><a href="https://apps.apple.com/in/app/edebo/id6775137253" target="_blank" rel="noopener">App Store</a><a href="https://play.google.com/store/apps/details?id=com.edebo.app&hl=en_IN" target="_blank" rel="noopener">Google Play</a><a href="https://www.instagram.com/edebo.in" target="_blank" rel="noopener">Instagram</a><a href="https://www.linkedin.com/company/edeboin" target="_blank" rel="noopener">LinkedIn</a></div>
+        <div><h4>Legal</h4><a href="/privacy.html">Privacy Policy</a><a href="/terms.html">Terms of Use</a><a href="/blog/feed.xml">RSS feed</a></div>
+      </div>
+    </div>
+    <div class="bfoot__base"><span>© 2026 Edebo · support@edebo.in</span><span>Edebo is a measurement and visualisation tool, not a diagnostic device.</span></div>
+  </div>
+</footer>
+<script>
+(function(){var n=document.querySelector('.bnav'),b=n&&n.querySelector('.bnav__burger'),s=document.getElementById('bnavSheet');
+if(!b)return;b.addEventListener('click',function(){var o=n.classList.toggle('is-open');s.hidden=!o;b.setAttribute('aria-expanded',String(o));});})();
+</script>
+</body>
+</html>
