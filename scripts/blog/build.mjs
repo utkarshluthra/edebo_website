@@ -1,12 +1,12 @@
 #!/usr/bin/env node
-// Builds the blog from content/blog/*.md into static HTML under /blog/.
+// Builds the blog from content/blog/*.md into static HTML under site/blog/.
 //   node scripts/blog/build.mjs           build everything
 //   node scripts/blog/build.mjs --check   validate content only, write nothing
 //
-// Output (all generated, do not edit by hand):
+// Output, relative to site/ (all generated, do not edit by hand):
 //   blog/index.html, blog/<slug>/index.html, blog/category/<key>/index.html,
 //   blog/feed.xml, sitemap-blog.xml
-// The root sitemap.xml is hand-maintained and is NOT touched by this script.
+// site/sitemap.xml is hand-maintained and is NOT touched by this script.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -18,7 +18,8 @@ import { renderIndex, renderCategory, renderPost, renderFeed } from './templates
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const SRC = path.join(ROOT, 'content/blog');
-const OUT = path.join(ROOT, 'blog');
+const WEB = path.join(ROOT, 'site'); // the deployable web root
+const OUT = path.join(WEB, 'blog');
 const CHECK_ONLY = process.argv.includes('--check');
 
 const errors = [];
@@ -204,7 +205,7 @@ function relatedFor(p) {
 // ---------- write ----------
 fs.rmSync(OUT, { recursive: true, force: true });
 const write = (rel, content) => {
-  const f = path.join(ROOT, rel);
+  const f = path.join(WEB, rel);
   fs.mkdirSync(path.dirname(f), { recursive: true });
   fs.writeFileSync(f, content);
 };

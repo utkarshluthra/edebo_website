@@ -1,6 +1,6 @@
 # Edebo blog content
 
-Every blog post is one Markdown file in this folder. This folder is the only source of truth: the HTML under `/blog/` and `sitemap.xml` are generated from it and should never be edited by hand.
+Every blog post is one Markdown file in this folder. This folder is the only source of truth: the HTML under `site/blog/` and `site/sitemap-blog.xml` are generated from it and should never be edited by hand.
 
 ## Add a new post
 
@@ -8,16 +8,16 @@ Every blog post is one Markdown file in this folder. This folder is the only sou
 2. Fill in the frontmatter and write the post. Remove `draft: true` when it is ready.
 3. Commit and push to `main`.
 
-Vercel then builds and deploys the site automatically (`npm run vercel-build`), and a GitHub Action also commits the generated `blog/`, `blog/feed.xml` and `sitemap-blog.xml` back to the repo. You can also build locally:
+Vercel then builds and deploys the site automatically (`npm run build`), and a GitHub Action also commits the generated `site/blog/` and `site/sitemap-blog.xml` back to the repo. You can also build locally:
 
 ```bash
 npm install        # first time only
-npm run build      # writes /blog and sitemap-blog.xml
+npm run build      # writes site/blog and site/sitemap-blog.xml
 npm run blog:check # validate content without writing
-npm run blog:serve # build, then preview at http://localhost:8080/blog/
+npm run dev        # build, then preview at http://localhost:8080/blog/
 ```
 
-The root `sitemap.xml` is hand-maintained; blog URLs go in `sitemap-blog.xml` automatically.
+`site/sitemap.xml` is hand-maintained; blog URLs go in `sitemap-blog.xml` automatically.
 
 ## Frontmatter
 
