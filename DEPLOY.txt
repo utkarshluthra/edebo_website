@@ -1,14 +1,20 @@
-Edebo technical SEO update (30 Oct 2026)
+Edebo SEO update (30 Oct 2026)
 
-Upload these to the edebo.in web root, replacing index.html and all icon files
-(favicon.ico, favicon-16/32.png, apple-touch-icon.png, icon-*.png, site.webmanifest).
+Upload everything in this zip to the edebo.in web root, keeping the folder structure.
+It replaces index.html, sitemap.xml and all icon files, and adds:
+  hair-loss-tracking-3d.html
+  filler-results-facial-volume-3d.html
+  body-contouring-progress-3d.html
+  before-after-photos-aesthetic-clinic.html
+  3d-imaging-systems-compared.html
+  assets/topic.css, assets/topic3d.js, assets/edebo-logo.png, assets/head-model.glb
 Keep the existing videos, poster, og-image, privacy.html and terms.html.
 Browsers cache favicons hard: check in a private window after upload.
 
 Host settings to confirm:
 1. https://www.edebo.in and http:// both 301-redirect to https://edebo.in/
-2. Gzip or Brotli on for .html, .js, .glb, .webmanifest, .xml
-3. Cache-Control: max-age=31536000 for /assets/* and icons; short cache for index.html
+2. Gzip or Brotli on for .html, .css, .js, .glb, .webmanifest, .xml
+3. Cache-Control: max-age=31536000 for /assets/* and icons; short cache for .html
 4. Serve .glb as model/gltf-binary and .webmanifest as application/manifest+json
 
 After deploy:
